@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    margin: 0;
+}
+.header-top{
+    background: #FF6D00;
+    height: 76px;
+}
+.container{
+    width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header-large{
+    background: #FF6D00;
+}
+.header-large ul{
+    margin: 0;
+    text-transform: uppercase;
+    line-height: 40px;
+}
+.header-large ul li.active{
+    background: #FF6D00;
+}
+.header-large ul li{
+    float: left;
+    padding: 0 10px;
+    list-style: none;
+}
+.header-large ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+.container :after{
+    clear: both;
+    display: table;
+    content: "";
+}
